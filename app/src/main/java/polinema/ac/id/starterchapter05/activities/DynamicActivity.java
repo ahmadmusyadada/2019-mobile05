@@ -18,16 +18,19 @@ public class DynamicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dynamic);
     }
 
-
     public void handlerClickLoadRedFragment(View view) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.dynamic_fragment_placeholder,new RedFragment());
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 
     public void handlerClickLoadBlueFragment(View view) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.dynamic_fragment_placeholder,new BlueFragment());
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
+
+
 }
