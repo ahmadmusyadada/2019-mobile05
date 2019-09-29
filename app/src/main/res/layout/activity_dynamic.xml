@@ -33,7 +33,9 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_load_red_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"></FrameLayout>
+        app:layout_constraintRight_toRightOf="parent">
+
+    </FrameLayout>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -41,6 +43,5 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5">
-
     </androidx.constraintlayout.widget.Guideline>
 </androidx.constraintlayout.widget.ConstraintLayout>

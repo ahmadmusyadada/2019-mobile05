@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PushUpFragment" >
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView41"
+        android:layout_alignBottom="@+id/imageView41"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toStartOf="@+id/imageView41"
+        app:srcCompat="@drawable/usera" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView42"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="-11dp"
+        android:layout_toStartOf="@+id/imageView42"
+        app:srcCompat="@drawable/userb" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/morelike" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView42"
+        android:layout_alignTop="@+id/imageView42"
+        android:layout_alignEnd="@+id/imageView42"
+        android:layout_alignBottom="@+id/imageView42"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="+21"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/comment" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView38"
+        android:layout_alignBottom="@+id/imageView38"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/textView19"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView39"
+        android:layout_alignBottom="@+id/imageView39"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView39"
+        android:text="212"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView38"
+        android:layout_alignBottom="@+id/imageView38"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/imageView38"
+        android:text="24"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/imageView37"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="19dp"
+        android:text='A push-up is a common calisthenics exercise beginning from the prone position, or the front leaning rest position known in the military. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole..'
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView34"
+        android:layout_alignBottom="@+id/imageView34"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView34"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView35"
+        android:layout_alignBottom="@+id/imageView35"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView35"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView36"
+        android:layout_alignBottom="@+id/imageView36"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView36"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView37"
+        android:layout_alignBottom="@+id/imageView37"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView37"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/stars" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/imageView33"
+        android:text="Advanced"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView30"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="20dp"
+        android:text="Pushups"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-2dp"
+        app:srcCompat="@drawable/top" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView30"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/fav_icon" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="242dp"
+        android:layout_height="190dp"
+        android:layout_alignStart="@+id/imageView30"
+        android:layout_alignEnd="@+id/imageView30"
+        android:layout_alignBottom="@+id/imageView30"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="-5dp"
+        android:src="@drawable/pngtreepush_ups_fitness_work_out_gym_3926023" />
+
+</RelativeLayout>

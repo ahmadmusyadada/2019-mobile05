@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DipsFragment">
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView27"
+        android:layout_alignBottom="@+id/imageView27"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toStartOf="@+id/imageView27"
+        app:srcCompat="@drawable/userb" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView29"
+        android:layout_alignBottom="@+id/imageView29"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/imageView29"
+        app:srcCompat="@drawable/usera" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="20dp"
+        app:srcCompat="@drawable/morelike" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/comment" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView29"
+        android:layout_alignTop="@+id/imageView29"
+        android:layout_alignEnd="@+id/imageView29"
+        android:layout_alignBottom="@+id/imageView29"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="11dp"
+        android:text="+2"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView25"
+        android:layout_alignBottom="@+id/imageView25"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/textView12"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/imageView26"
+        android:text="92"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView25"
+        android:layout_alignBottom="@+id/imageView25"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/imageView25"
+        android:text="12"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="18dp"
+        android:text="A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor), and the rhomboid muscles of the back (in that order). Wide arm training places additional emphasis on the pectoral muscles, similar in respect to the way a wide grip bench press would focus more on the pectorals and less on the triceps"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/imageView24"
+        android:text="Advanced"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_alignBottom="@+id/imageView20"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView20"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView21"
+        android:layout_alignBottom="@+id/imageView21"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView21"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_alignBottom="@+id/imageView22"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView22"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView22"
+        android:layout_alignBottom="@+id/imageView22"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/imageView22"
+        app:srcCompat="@drawable/stars" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="-55dp"
+        android:layout_marginEnd="21dp"
+        android:text="Dips"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/top" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="162dp"
+        android:layout_height="154dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/imagesdipup" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/fav_icon" />
+</RelativeLayout>
